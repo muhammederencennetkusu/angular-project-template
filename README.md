@@ -30,65 +30,65 @@
 </head>
 <body>
     <h1>Angular Project Template</h1>
-    <p>Bu proje, <strong>Angular</strong> ile geliştirilecek uygulamalar için bir başlangıç şablonu olarak hazırlanmıştır.</p>
+    <p>This project is a starter template for applications developed with <strong>Angular</strong>.</p>
     
-    <h2>📌 Özellikler</h2>
+    <h2>📌 Features</h2>
     <ul>
-        <li><strong>Modüler Yapı</strong>: Uygulama modüller halinde düzenlenmiştir.</li>
-        <li><strong>SCSS Desteği</strong>: Daha iyi stil yönetimi için SCSS kullanılmıştır.</li>
-        <li><strong>RxJS & State Management</strong>: Reaktif veri yönetimi uygulanabilir.</li>
-        <li><strong>Hızlı Başlangıç</strong>: Düzenli bir proje yapısı sunar.</li>
+        <li><strong>Modular Structure</strong>: The application is organized in modules.</li>
+        <li><strong>SCSS Support</strong>: SCSS is used for better style management.</li>
+        <li><strong>RxJS & State Management</strong>: Reactive data management is applicable.</li>
+        <li><strong>Quick Start</strong>: Provides a well-structured project setup.</li>
     </ul>
     
-    <h2>🚀 Kurulum ve Kullanım</h2>
-    <h3>📦 Gereksinimler</h3>
-    <p>Projeyi çalıştırmadan önce aşağıdaki teknolojilerin sisteminizde kurulu olması gerekmektedir:</p>
+    <h2>🚀 Installation and Usage</h2>
+    <h3>📦 Requirements</h3>
+    <p>Before running the project, ensure the following technologies are installed on your system:</p>
     <ul>
-        <li><a href="https://nodejs.org/">Node.js</a> (LTS önerilir)</li>
-        <li>Angular CLI yüklemek için:</li>
+        <li><a href="https://nodejs.org/">Node.js</a> (LTS recommended)</li>
+        <li>To install Angular CLI:</li>
     </ul>
     <pre><code>npm install -g @angular/cli</code></pre>
     
-    <h3>📥 Projeyi Klonlayın</h3>
+    <h3>📥 Clone the Project</h3>
     <pre><code>git clone https://github.com/muhammederencennetkusu/angular-project-template.git
 cd angular-project-template</code></pre>
     
-    <h3>📌 Bağımlılıkları Yükleyin</h3>
+    <h3>📌 Install Dependencies</h3>
     <pre><code>npm install</code></pre>
     
-    <h3>▶️ Geliştirme Ortamında Çalıştırma</h3>
+    <h3>▶️ Run in Development Mode</h3>
     <pre><code>ng serve</code></pre>
-    <p>Proje <strong>http://localhost:4200/</strong> adresinde çalışacaktır.</p>
+    <p>The project will be available at <strong>http://localhost:4200/</strong>.</p>
     
-    <h2>📁 Proje Yapısı</h2>
+    <h2>📁 Project Structure</h2>
     <pre><code>angular-project-template/
 │-- src/
-│   ├── app/               # Uygulama bileşenleri ve modülleri
-│   ├── assets/            # Statik dosyalar (görseller, CSS vb.)
-│   ├── environments/      # Ortam değişkenleri (development/production)
-│   ├── main.ts            # Angular uygulamasının başlangıç noktası
-│   ├── index.html         # Ana HTML dosyası
-│-- angular.json           # Angular proje yapılandırma dosyası
-│-- package.json           # Proje bağımlılıkları ve komutlar
-│-- README.md              # Proje hakkında bilgiler</code></pre>
+│   ├── app/               # Application components and modules
+│   ├── assets/            # Static files (images, CSS, etc.)
+│   ├── environments/      # Environment configurations (development/production)
+│   ├── main.ts            # Application entry point
+│   ├── index.html         # Main HTML file
+│-- angular.json           # Angular project configuration
+│-- package.json           # Project dependencies and scripts
+│-- README.md              # Project documentation</code></pre>
     
-    <h2>🔧 Kullanılan Teknolojiler</h2>
+    <h2>🔧 Technologies Used</h2>
     <ul>
-        <li><strong>Angular</strong> - Modern web uygulamaları geliştirmek için.</li>
-        <li><strong>TypeScript</strong> - Daha güvenli ve ölçeklenebilir JavaScript yazımı için.</li>
-        <li><strong>RxJS</strong> - Reaktif programlama için.</li>
-        <li><strong>SCSS (Sass)</strong> - Daha organize ve gelişmiş stil yönetimi için.</li>
+        <li><strong>Angular</strong> - For modern web application development.</li>
+        <li><strong>TypeScript</strong> - For safer and scalable JavaScript.</li>
+        <li><strong>RxJS</strong> - For reactive programming.</li>
+        <li><strong>SCSS (Sass)</strong> - For advanced and organized styling.</li>
     </ul>
     
-    <h2>🤝 Katkıda Bulunma</h2>
-    <p>Projeye katkıda bulunmak için aşağıdaki adımları takip edebilirsiniz:</p>
-    <pre><code>git checkout -b feature-yeni-ozellik
-# Geliştirmelerinizi yapın ve kaydedin
-git commit -m "Yeni özellik eklendi"
-git push origin feature-yeni-ozellik</code></pre>
-    <p>Ardından bir <strong>Pull Request</strong> oluşturarak katkınızı paylaşabilirsiniz.</p>
+    <h2>🤝 Contributing</h2>
+    <p>To contribute, follow these steps:</p>
+    <pre><code>git checkout -b feature-new-feature
+# Make your changes and commit them
+git commit -m "Added new feature"
+git push origin feature-new-feature</code></pre>
+    <p>Then, create a <strong>Pull Request</strong> to share your contribution.</p>
     
-    <h2>📜 Lisans</h2>
-    <p>Bu proje <strong>MIT Lisansı</strong> ile lisanslanmıştır.</p>
+    <h2>📜 License</h2>
+    <p>This project is licensed under the <strong>MIT License</strong>.</p>
 </body>
 </html>
